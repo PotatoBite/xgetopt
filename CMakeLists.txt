@@ -4,6 +4,6 @@ project(xgetopt VERSION 1.0.0)
 
 install(DIRECTORY "./" # source directory
         DESTINATION "include" # target directory
-        #FILES_MATCHING # install only matched files
+        FILES_MATCHING # install only matched files
         PATTERN "*.h;*.cpp;*.c" # select header files
 )
